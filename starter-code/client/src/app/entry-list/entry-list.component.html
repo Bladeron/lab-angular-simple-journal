@@ -1,0 +1,13 @@
+
+<ul>
+  <li *ngFor="let j of post$ | async">
+    <p>
+      <b>Entrada:</b> {{j.title}}
+    </p>
+    <div><b>Fecha:</b>   </div>
+    <p>
+      <i>{{j.date}}</i>
+    </p>
+    <a [routerLink]="['', j._id]">Ir al post</a>
+  </li>
+</ul>
