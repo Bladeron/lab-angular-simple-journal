@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { EntryServiceService } from '../entry-service.service';
 import { Observable } from 'rxjs/Observable';
 
+
 @Component({
   selector: 'app-entry-list',
   templateUrl: './entry-list.component.html',
